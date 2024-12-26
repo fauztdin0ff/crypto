@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+   <link rel="icon" type="image/ico" href="img/favicon.ico">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="theme-color" content="#ffffff">
+   <meta property="og:title" content="Get crypto fast">
+   <meta name="description" content="Your gateway to financial freedom">
+   <meta property="og:description" content="Your gateway to financial freedom">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Get crypto fast</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body container">
+            <div class="header__logo">
+               <a href="index.html" aria-label="Home page">
+                  <img src="img/logo.svg" alt="">
+               </a>
+            </div>
+            <div class="header__info">
+               <div class="header__menu menu">
+                  <div class="menu__icon">
+                     <span></span>
+                  </div>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li class=""><a href="#" class="menu__link active">Buy
+                              crypto</a>
+                        </li>
+                        <li class=""><a href="index.html#partners" class="menu__link active">Partners</a>
+                        </li>
+                        <li class=""><a href="index.html#faq" class="menu__link active">FAQ</a></li>
+                        <li class=""><a href="mailto:help@flourishingai.com" class="menu__link active">Support</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="header__switch">
+                  <input type="radio" id="normal" name="mode">
+                  <label for="normal">Normal</label>
+                  <input type="radio" id="expert" name="mode" checked>
+                  <label for="expert">Expert</label>
+                  <span class="slider"></span>
+               </div>
+               <div class="header__button">
+                  <button class="button signup-button">Sign up</button>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="preloader">
+            <div class="preloader__icon"></div>
+         </div>
+
+         <div class="buy">
+            <div class="buy__body disabled-step">
+               <div class="buy__title">Buy crypto</div>
+               <form class="buy__form">
+                  <div class="buy__step step step1">
+                     <div class="step__header">
+                        <p class="step__title">1. Select token</p>
+                        <div class="step__user">
+                           <img src="img/icons/form-user.svg" alt="">
+                           Customer ID: <input type="text" id="userId" placeholder="Enter ID" required>
+                        </div>
+                     </div>
+                     <div class="step__form-items">
+                        <div class="step__form-item">
+                           <span>Amount to spend</span>
+                           <div class="step__value">
+                              <input type="text" id="spendAmound" class="step__input number-input"
+                                 placeholder="Enter amount" required>
+                              <div class="dropdown">
+                                 <input type="text" class="dropdown__input-hidden">
+                                 <p class="dropdown__button"><img src="img/country/usa.svg" alt="">USD</p>
+                                 <ul class="dropdown__list">
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/argentina.svg" alt="">
+                                       ARS <span>Argentine Peso</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/bolivia.svg" alt="">
+                                       BOB <span>Bolivian Boliviano</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/brazil.svg" alt="">
+                                       BRL <span>Brazilian Real</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/canada.svg" alt="">
+                                       CAD <span>Canadian Dollar</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/egypt.svg" alt="">
+                                       EGP <span>Egyptian Pound</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/euro.svg" alt="">
+                                       EUR <span>Euro</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/gb.svg" alt="">
+                                       GBP <span>Great Britain Pound</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/poland.svg" alt="">
+                                       PLN <span>Polish Zloty</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/usa.svg" alt="">
+                                       USD <span>United States Dollar</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/ukraine.svg" alt="">
+                                       UAH <span>Ukrainian Hryvnia</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="step__form-item">
+                           <span>Token to buy</span>
+                           <div class="step__value">
+                              <div class="dropdown big-dropdown">
+                                 <input type="text" name="recieveCurrency" class="dropdown__input-hidden" required>
+                                 <p class="dropdown__button"><img src="img/curency/usdc.svg" alt="">USDC
+                                 </p>
+                                 <ul class="dropdown__list">
+                                    <li class="dropdown__list-item"><img src="img/curency/ada.png" alt="">
+                                       ADA <span>Tokenized Cardano</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/ai.svg" alt="">
+                                       AI <span>Flourishing AI</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/Tether.svg" alt="">
+                                       BNB <span>BNB</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/BUSd.svg" alt="">
+                                       BSCPAD <span>BSCPAD</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/Binance.svg" alt="">
+                                       BUSD <span>Binance USD</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/PancakeSwap.svg" alt="">
+                                       CAKE <span>Pancake Swap</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/dai.png" alt="">
+                                       DAI <span>Dai</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/doge.png" alt="">
+                                       DOGE <span>Tokenized Dogecoin</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/Ethereum.svg" alt="">
+                                       ETH <span>Ethereum</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/eurc.svg" alt="">
+                                       EURC <span>EUROC</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/ferrum.svg" alt="">
+                                       FRM <span>Ferrum Network</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/matic.svg" alt="">
+                                       MATIC <span>Polygon</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/usdc.svg" alt="">
+                                       USDC <span>USDC</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/wbtc.png" alt="">
+                                       WBTC <span>Wrapped BTC</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/weth.svg" alt="">
+                                       WETH <span>Wrapped ETH</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/xrp.png" alt="">
+                                       XRP <span>Tokenized Ripple</span></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="step__blockchain blockchain">
+                        <span>Blockchain</span>
+                        <div class="blockchain__items">
+                           <div class="blockchain__item active">Ethereum</div>
+                           <div class="blockchain__item">BSC</div>
+                           <div class="blockchain__item">Polygon</div>
+                           <div class="blockchain__item">Arbitrum</div>
+                           <span class="bg-cover"></span>
+                        </div>
+                        <div class="blockchain__values">
+                           <div class="blockchain__value">
+                              <span>Network fees</span>
+                              <p>45 USD</p>
+                           </div>
+                           <div class="blockchain__value">
+                              <span>USDC amount</span>
+                              <p>23 USDC</p>
+                           </div>
+                           <div class="blockchain__value">
+                              <span>This transaction burns $AI</span>
+                              <p>45 AI</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="buy__step step step2">
+                     <div class="step__header">
+                        <p class="step__title">2. Payment method</p>
+                        <div class="step__user">
+                           <img src="img/icons/zamok.svg" alt="">
+                           Secure form
+                        </div>
+                     </div>
+                     <div class="step__form-items">
+                        <div class="step__form-item">
+                           <span>Name on card</span>
+                           <div class="step__value">
+                              <input type="text" class="step__input" placeholder="First and last name" required>
+                           </div>
+                        </div>
+                        <div class="step__form-row">
+                           <div class="step__form-item">
+                              <span>Credit card number</span>
+                              <div class="step__value">
+                                 <input type="text" class="step__input number-input card-input"
+                                    placeholder="1234 5678 9876 5432" minlength="19" maxlength="19" required>
+                                 <img src="img/icons/visa.svg" class="card-input-icon" alt="">
+
+                                 <span class="invalid">Wrong credit card number</span>
+                              </div>
+                           </div>
+                           <div class="step__form-row-secondary">
+                              <div class="step__form-item">
+                                 <span>Expire date</span>
+                                 <div class="step__value">
+                                    <input type="text" class="step__input number-input date-input" minlength="4"
+                                       placeholder="MM / YY" required>
+                                    <span class="invalid">Wrong date</span>
+                                 </div>
+                              </div>
+                              <div class="step__form-item">
+                                 <span>CVV</span>
+                                 <div class="step__value">
+                                    <input type="text" class="step__input number-input cvv-input" minlength="3"
+                                       maxlength="3" placeholder="CVV" required>
+                                    <span class="invalid">Wrong CVV</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="step__policy">
+                        <div class="checkbox">
+                           <input type="checkbox" id="policyAgree">
+                           <label for="policyAgree">
+                              I agree to the
+                              <a href="https://www.notion.so/Step-1-Structure-260af60f8f9a47e4ab42056b31a52af6#"
+                                 target="_blank">Terms and Conditions</a>,
+                              <a href="https://www.notion.so/Step-1-Structure-260af60f8f9a47e4ab42056b31a52af6#"
+                                 target="_blank">Privacy Policy</a>, and
+                              <a href="https://www.notion.so/Step-1-Structure-260af60f8f9a47e4ab42056b31a52af6#"
+                                 target="_blank">AML/KYC Policy</a>.
+                              All payments are final and non-refundable. The company is not liable for lost
+                              cryptocurrency. *Displayed crypto amount is an estimate, actual crypto amount delivered
+                              is dependent on market conditions at the time of delivery.
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <button type="submit" class="button submit-button">Buy crypto</button>
+               </form>
+            </div>
+         </div>
+
+         <div class="signup">
+            <div class="signup__body">
+               <div class="signup__title">
+                  Sign up to GetCryptoFast
+               </div>
+               <form class="signup__form">
+                  <div class="signup__form-item">
+                     <span>Email</span>
+                     <input type="email" name="email" placeholder="example@mail.com" required>
+                  </div>
+                  <div class="signup__form-item">
+                     <span>Telegram handle</span>
+                     <input type="text" name="telegram" placeholder="@handle" required>
+                  </div>
+                  <div class="signup__form-item">
+                     <span>Crypto wallet address (ERC-20)</span>
+                     <input type="text" name="wallet" placeholder="Wallet address" required>
+                  </div>
+                  <button type="submit" class="button">
+                     <span class="loading-icon"></span>
+                     <span>Sign up</span>
+                  </button>
+               </form>
+               <div class="signup__success">
+                  <div class="signup__success-title">Check your inbox!</div>
+                  <div class="signup__success-icon">
+                     <img src="img/icons/mail-success.svg" alt="">
+                  </div>
+                  <div class="signup__success-text">
+                     <p>Thank you for your request. We emailed you the next step at <span>example@gmail.com</span></p>
+                     <p>If you do not see an email within the next 10 minutes please check your spam/junk folder for an
+                        email from
+                        noreply@flourishingcapital.io</p>
+                  </div>
+                  <button class="button resend-email">Resend email</button>
+               </div>
+               <div class="signup__close">
+                  <img src="img/icons/close.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__body container">
+            <div class="footer__main">
+               <div class="footer__menu">
+                  <nav class="footer__nav">
+                     <div class="footer__nav-col">
+                        <div class="footer__nav-title">Company</div>
+                        <a href="index.html#home" class="footer__nav-link">Home</a>
+                        <a href="index.html#benefits" class="footer__nav-link">Why GetCryptoFast</a>
+                        <a href="index.html#partners" class="footer__nav-link">Expertise & partners</a>
+                        <a href="index.html#how-to-buy" class="footer__nav-link">How it works</a>
+                     </div>
+                     <div class="footer__nav-col">
+                        <div class="footer__nav-title">Legal</div>
+                        <a href="https://docs.google.com/document/d/17ICxBqIXdD0JXT3ksGvxm2KjOp_DXl-IFF8-KNF5Tqg/edit"
+                           target="_blank" class="footer__nav-link">Terms & conditions</a>
+                        <a href="https://docs.google.com/document/d/1AUrYcvD8RiszHHBh6BUxv3Sq-fyHVEOSMtfJzz3_lf8/edit"
+                           target="_blank" class="footer__nav-link">Privacy policy</a>
+                        <a href="https://docs.google.com/document/d/1FUk1Mo4pNI1TmWhjNYqnm9ZoCkMg4cBDbCCgg0aH44o/edit"
+                           target="_blank" class="footer__nav-link">KYC / AML</a>
+                     </div>
+                     <div class="footer__nav-col">
+                        <div class="footer__nav-title">Support</div>
+                        <a href="index.html#faq" class="footer__nav-link">FAQ</a>
+                        <p>For any issues regarding your purchase,
+                           please contact us at <a href="mailto:help@flourishingai.com">help@flourishingai.com</a> or <a
+                              href="https://t.me/flourishingcapital/211751" target="_blank">telegram</a>.</p>
+                     </div>
+                  </nav>
+                  <div class="footer__socials">
+                     <a href="https://www.ethereum.org/" target="_blank" class="footer__social">
+                        <img src="img/icons/web.svg" alt="">
+                     </a>
+                     <a href="https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" target="_blank"
+                        class="footer__social">
+                        <img src="img/icons/web2.svg" alt="">
+                     </a>
+                     <a href="https://twitter.com/ethereum" target="_blank" class="footer__social">
+                        <img src="img/icons/web3.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <p>Crypto is immediately delivered and accessible in your wallet upon purchase. In the unlikely event we
+                  can
+                  not deliver
+                  immediately, you will be notified here and delivery will happen at the earliest time possible.</p>
+            </div>
+            <div class="footer__copyright">
+               Flourishing AI 300 S. Main st, #212, Holly Springs, NC 27540 USA ©2024 Flourishing AI. All rights
+               reserved.
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/swiper-bundle.min.js?_v=20240824004707"></script>
+   <script src="js/app.js?_v=20240824004707"></script>
+</body>
+
+</html>

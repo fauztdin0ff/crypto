@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+   <link rel="icon" type="image/ico" href="img/favicon.ico">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="theme-color" content="#ffffff">
+   <meta property="og:title" content="Get crypto fast">
+   <meta name="description" content="Your gateway to financial freedom">
+   <meta property="og:description" content="Your gateway to financial freedom">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Get crypto fast</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body container">
+            <div class="header__logo  element-animation">
+               <a href="index.html" aria-label="Home page">
+                  <img src="img/logo.svg" alt="">
+               </a>
+            </div>
+            <div class="header__info">
+               <div class="header__menu menu">
+                  <div class="menu__icon">
+                     <span></span>
+                  </div>
+                  <nav class="menu__body">
+                     <ul class="menu__list">
+                        <li class=" element-animation"><a href="buy-crypto.html" class="menu__link active">Buy
+                              crypto</a>
+                        </li>
+                        <li class=" element-animation"><a href="index.html#partners"
+                              class="menu__link active">Partners</a></li>
+                        <li class=" element-animation"><a href="index.html#faq" class="menu__link active">FAQ</a></li>
+                        <li class=" element-animation"><a href="mailto:help@flourishingai.com"
+                              class="menu__link active">Support</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="header__switch  element-animation">
+                  <input type="radio" id="normal" name="mode" checked>
+                  <label for="normal">Normal</label>
+                  <input type="radio" id="expert" name="mode">
+                  <label for="expert">Expert</label>
+                  <span class="slider"></span>
+               </div>
+               <div class="header__button  element-animation">
+                  <button class="button signup-button">Sign up</button>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main>
+         <div class="preloader">
+            <div class="preloader__icon"></div>
+         </div>
+         <section class="hero" id="home">
+            <div class="hero__body container">
+               <div class="hero__text">
+                  <h1 class="hero__title element-animation">Buy crypto simple,
+                     fast & securely</h1>
+                  <div class="hero__subtitle element-animation">Create your GetCryptoFast account today and enjoy
+                     smooth,
+                     secure crypto purchases with rapid delivery straight to your wallet.</div>
+                  <div class="hero__button element-animation">
+                     <a href="buy-crypto.html" class="button">Buy crypto now</a>
+                  </div>
+               </div>
+               <div class="hero__buy">
+                  <div class="hero__buy-block element-animation">
+                     <div class="hero__buy-title">Buy сrypto</div>
+                     <form class="hero__buy-form">
+                        <div class="hero__buy-item">
+                           <label for="spend">You spend</label>
+                           <input type="text" value="200" id="spend" class="number-input">
+                           <div class="hero__buy-currency">
+                              <div class="dropdown">
+                                 <input type="text" name="spendCurrency" class="dropdown__input-hidden">
+                                 <p class="dropdown__button"><img src="img/country/usa.svg" alt="">USD</p>
+                                 <ul class="dropdown__list">
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/argentina.svg" alt="">
+                                       ARS <span>Argentine Peso</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/bolivia.svg" alt="">
+                                       BOB <span>Bolivian Boliviano</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/brazil.svg" alt="">
+                                       BRL <span>Brazilian Real</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/canada.svg" alt="">
+                                       CAD <span>Canadian Dollar</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/egypt.svg" alt="">
+                                       EGP <span>Egyptian Pound</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/euro.svg" alt="">
+                                       EUR <span>Euro</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/gb.svg" alt="">
+                                       GBP <span>Great Britain Pound</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/poland.svg" alt="">
+                                       PLN <span>Polish Zloty</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/usa.svg" alt="">
+                                       USD <span>United States Dollar</span>
+                                    </li>
+                                    <li class="dropdown__list-item">
+                                       <img src="img/country/ukraine.svg" alt="">
+                                       UAH <span>Ukrainian Hryvnia</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="hero__buy-item">
+                           <label for="recieve">You recieve</label>
+                           <input type="text" value="0.00424" id="recieve" class="number-input">
+                           <div class="hero__buy-currency">
+                              <div class="dropdown">
+                                 <input type="text" name="recieveCurrency" class="dropdown__input-hidden">
+                                 <p class="dropdown__button"><img src="img/curency/usdc.svg" alt="">USDC
+                                 </p>
+                                 <ul class="dropdown__list">
+                                    <li class="dropdown__list-item"><img src="img/curency/ada.png" alt="">
+                                       ADA <span>Tokenized Cardano</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/ai.svg" alt="">
+                                       AI <span>Flourishing AI</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/Tether.svg" alt="">
+                                       BNB <span>BNB</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/BUSd.svg" alt="">
+                                       BSCPAD <span>BSCPAD</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/Binance.svg" alt="">
+                                       BUSD <span>Binance USD</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/PancakeSwap.svg" alt="">
+                                       CAKE <span>Pancake Swap</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/dai.png" alt="">
+                                       DAI <span>Dai</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/doge.png" alt="">
+                                       DOGE <span>Tokenized Dogecoin</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/Ethereum.svg" alt="">
+                                       ETH <span>Ethereum</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/eurc.svg" alt="">
+                                       EURC <span>EUROC</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/ferrum.svg" alt="">
+                                       FRM <span>Ferrum Network</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/matic.svg" alt="">
+                                       MATIC <span>Polygon</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/usdc.svg" alt="">
+                                       USDC <span>USDC</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/wbtc.png" alt="">
+                                       WBTC <span>Wrapped BTC</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/weth.svg" alt="">
+                                       WETH <span>Wrapped ETH</span></li>
+                                    <li class="dropdown__list-item"><img src="img/curency/xrp.png" alt="">
+                                       XRP <span>Tokenized Ripple</span></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <p class="hero__exchange">1$ (USD) ≈ 0.99 USDC</p>
+                        <a href="buy-crypto.html" type="submit" class="button">Continue</a>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="carousel-container element-animation">
+            <div class="carousel-track">
+               <div class="carousel-item"><img src="img/curency/ai.svg" alt="">AI</div>
+               <div class="carousel-item"><img src="img/curency/usdc.svg" alt="">USDC</div>
+               <div class="carousel-item"><img src="img/curency/Ethereum.svg" alt="">ETH</div>
+               <div class="carousel-item"><img src="img/curency/Tether.svg" alt="">USDT</div>
+               <div class="carousel-item"><img src="img/curency/PancakeSwap.svg" alt="">CAKE</div>
+               <div class="carousel-item"><img src="img/curency/eurc.svg" alt="">EURC</div>
+               <div class="carousel-item"><img src="img/curency/BUSd.svg" alt="">BUSD</div>
+               <div class="carousel-item"><img src="img/curency/weth.svg" alt="">WETH</div>
+               <div class="carousel-item"><img src="img/curency/Binance.svg" alt="">BSCPAD</div>
+               <div class="carousel-item"><img src="img/curency/ai.svg" alt="">AI</div>
+               <div class="carousel-item"><img src="img/curency/usdc.svg" alt="">USDC</div>
+               <div class="carousel-item"><img src="img/curency/Ethereum.svg" alt="">ETH</div>
+               <div class="carousel-item"><img src="img/curency/Tether.svg" alt="">USDT</div>
+               <div class="carousel-item"><img src="img/curency/PancakeSwap.svg" alt="">CAKE</div>
+               <div class="carousel-item"><img src="img/curency/eurc.svg" alt="">EURC</div>
+               <div class="carousel-item"><img src="img/curency/BUSd.svg" alt="">BUSD</div>
+               <div class="carousel-item"><img src="img/curency/weth.svg" alt="">WETH</div>
+               <div class="carousel-item"><img src="img/curency/Binance.svg" alt="">BSCPAD</div>
+            </div>
+         </div>
+         <section class="benefits" id="benefits">
+            <div class="benefits__body container">
+               <h2 class="benefits__title element-animation">Your gateway to financial freedom</h2>
+               <div class="benefits__items">
+                  <div class="benefits__item element-animation">
+                     <div class="benefits__icon">
+                        <img src="img/icons/benefit1.svg" alt="">
+                     </div>
+                     <div class="benefits__text">
+                        <div class="benefits__name">Secure transactions</div>
+                        <p class="benefits__description">Verify your identity through our quick and easy KYC process.
+                           Enjoy peace of mind and buy crypto securely with
+                           GetCryptoFast.</p>
+                     </div>
+                  </div>
+                  <div class="benefits__item element-animation">
+                     <div class="benefits__icon">
+                        <img src="img/icons/benefit2.svg" alt="">
+                     </div>
+                     <div class="benefits__text">
+                        <div class="benefits__name">Instant purchases</div>
+                        <p class="benefits__description">Receive your cryptocurrency in your wallet instantly after
+                           purchase. GetCryptoFast ensures rapid and reliable delivery
+                           every time.</p>
+                     </div>
+                  </div>
+                  <div class="benefits__item element-animation">
+                     <div class="benefits__icon">
+                        <img src="img/icons/benefit3.svg" alt="">
+                     </div>
+                     <div class="benefits__text">
+                        <div class="benefits__name">Best prices</div>
+                        <p class="benefits__description">Get the best market rates with no hidden fees.
+                           Start now to secure the best deals!</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="partners" id="partners">
+            <div class="partners__body container">
+               <h2 class="partners__title element-animation">Trusted expertise & global partnerships</h2>
+               <div class="partners__content">
+                  <div class="partners__info">
+                     <p class="partners__info-item element-animation">
+                        <span>15+</span>
+                        Tokens supported
+                     </p>
+                     <p class="partners__info-item element-animation">
+                        <span>>179</span>
+                        Countries avaliable in
+                     </p>
+                     <p class="partners__info-item element-animation">
+                        <span>4+</span>
+                        Blockchains
+                     </p>
+                     <p class="partners__info-item element-animation">
+                        <span>5</span>
+                        Years of trust
+                     </p>
+                  </div>
+                  <div class="partners__slider swiper element-animation">
+                     <div class="partners__slider-wrapper swiper-wrapper">
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/circle.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/worldpay.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/uniswap.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/pancake.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/bluezilla.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/celer.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/crypto.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/circle.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/ferrum.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/gd.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/kraken.svg" alt="">
+                        </div>
+                        <div class="partners__slide swiper-slide">
+                           <img src="img/partners/tmk.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="how" id="how-to-buy">
+            <div class="how__body container">
+               <h2 class="how__title element-animation">How to buy crypto</h2>
+               <div class="how__cards">
+                  <div class="how__card card element-animation">
+                     <div class="card__number">
+                        <span>1</span>
+                        <img src="img/icons/user.svg" alt="">
+                     </div>
+                     <div class="card__name element-animation">Sign up and dive in</div>
+                     <div class="card__text element-animation">Click the "Buy Crypto Now" button and provide your wallet
+                        address to
+                        receive your crypto.</div>
+                  </div>
+                  <div class="how__card card element-animation">
+                     <div class="card__number">
+                        <span>2</span>
+                        <img src="img/icons/check.svg" alt="">
+                     </div>
+                     <div class="card__name element-animation">Verify securely</div>
+                     <div class="card__text element-animation">Complete our simple KYC process to get your crypto. Your
+                        security is our
+                        priority—verify your identity and unlock full
+                        access to our platform.</div>
+                  </div>
+                  <div class="how__card card element-animation">
+                     <div class="card__number">
+                        <span>3</span>
+                        <img src="img/icons/sun.svg" alt="">
+                     </div>
+                     <div class="card__name element-animation">Choose your crypto and go</div>
+                     <div class="card__text element-animation">Select your preferred cryptocurrency and complete your
+                        purchase instantly.
+                        With GetCryptoFast, buying crypto is as easy
+                        as a few clicks.</div>
+                  </div>
+                  <div class="how__card card element-animation">
+                     <div class="card__number">
+                        <span>4</span>
+                        <img src="img/icons/lightning.svg" alt="">
+                     </div>
+                     <div class="card__name element-animation">Instant crypto, zero hassle</div>
+                     <div class="card__text element-animation">Choose, pay, and receive your cryptocurrency instantly.
+                        GetCryptoFast
+                        ensures rapid and reliable delivery every time.</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="instructions" id="instructions">
+            <div class="instructions__body container">
+               <h2 class="instructions__title element-animation">New to crypto?</h2>
+               <h3 class="instructions__subtitle element-animation">Set up your wallet and dive into the crypto world —
+                  it's easier than
+                  you think.</h3>
+               <div class="instructions__items element-animation">
+                  <div class="instructions__item opened">
+                     <div class="instructions__text">
+                        <span class="instructions__number">1</span>
+                        Choose and set up your wallet
+                        <div class="instructions__icon"></div>
+                     </div>
+                     <div class="instructions__description">
+                        <p>
+                           Hot Wallets: Great for beginners and daily use, easily accessible online. Cold Wallets:
+                           Better
+                           for long-term storage,
+                           offline with added security.
+                        </p>
+                        <p>
+                           Research and choose a reputable wallet provider that suits your needs. Some popular options
+                           are
+                           <a href="https://metamask.io/" target="_blank">MetaMask</a>,
+                           <a href="https://trustwallet.com/" target="_blank">Trust Wallet</a>,
+                           <a href="https://trezor.io/" target="_blank">Trezor</a> and
+                           <a href="https://www.ledger.com/" target="_blank">Ledger</a>.
+                        </p>
+                        <p> We suggest using a hot wallet like <a href="https://metamask.io/"
+                              target="_blank">MetaMask</a> since it works smoothly with our
+                           platform.</p>
+                     </div>
+                  </div>
+                  <div class="instructions__item">
+                     <div class="instructions__text">
+                        <span class="instructions__number">2</span>
+                        Download & install the app
+                        <div class="instructions__icon"></div>
+                     </div>
+                     <div class="instructions__description">
+                        Download the wallet app directly from the provider’s official website or app store, then follow
+                        the simple setup
+                        instructions.
+                     </div>
+                  </div>
+                  <div class="instructions__item">
+                     <div class="instructions__text">
+                        <span class="instructions__number">3</span>
+                        Create and secure your wallet
+                        <div class="instructions__icon"></div>
+                     </div>
+                     <div class="instructions__description">
+                        Open the app, set a strong password, and back up your recovery phrase securely. This phrase is
+                        crucial for accessing
+                        your wallet if you lose your password.
+                     </div>
+                  </div>
+                  <div class="instructions__item">
+                     <div class="instructions__text">
+                        <span class="instructions__number">4</span>
+                        Start using your wallet today
+                        <div class="instructions__icon"></div>
+                     </div>
+                     <div class="instructions__description">
+                        Once your wallet is set up, you can receive, store, and send cryptocurrencies. Sign up for
+                        GetCryptoFast now and begin
+                        your crypto journey.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="faq" id="faq">
+            <div class="faq__body container">
+               <div class="faq__text">
+                  <h4 class="faq__title element-animation">Frequently Asked Questions</h4>
+                  <p class="faq__subtitle element-animation">Can't find what you're looking for? Check out our common
+                     questions, or please
+                     contact us
+                     at help@flourishingai.com or <a href="https://t.me/flourishingcapital/211751"
+                        target="_blank">telegram</a>.</p>
+               </div>
+               <div class="faq__items element-animation">
+                  <div class="faq__item">
+                     <div class="faq__question">
+                        <span class="faq__icon"></span>
+                        How to buy crypto?
+                     </div>
+                     <div class="faq__answer">
+                        <p>Follow these steps:</p>
+                        <ol>
+                           <li>Get started: Click "Buy Crypto Now" and enter your wallet address.</li>
+                           <li>Verify your identity: complete our simple KYC process to ensure secure access.</li>
+                           <li>Pick your crypto: select your desired cryptocurrency and make your purchase instantly.
+                           </li>
+                           <li>Receive instantly: pay and get your crypto delivered without delay.</li>
+                        </ol>
+                        <p>
+                           <span>Don’t Have a Wallet?</span> Create one easily: Choose a software (like Trust Wallet,
+                           Metamask) wallet,
+                           set it up, and securely
+                           store your recovery phrase. You're all set to store your crypto!
+                        </p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__question">
+                        <span class="faq__icon"></span>
+                        Is GetCryptoFast decentralized?
+                     </div>
+                     <div class="faq__answer">
+                        <p>Yes, GetCryptoFast is a decentralized crypto platform available in over 179 countries. It
+                           does not store crypto
+                           centrally and all its products are non-custodial, meaning you have full control over your
+                           assets.</p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__question">
+                        <span class="faq__icon"></span>
+                        What payment methods are accepted?
+                     </div>
+                     <div class="faq__answer">
+                        <p>GetCryptoFast accepts a variety of payment methods, including major credit and debit cards to
+                           provide you with the
+                           convenience and flexibility you need for your transactions.</p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__question">
+                        <span class="faq__icon"></span>
+                        Is GetCryptoFast secure?
+                     </div>
+                     <div class="faq__answer">
+                        <p>Yes, GetCryptoFast is highly secure. We employ advanced encryption technologies and rigorous
+                           security protocols to
+                           ensure your transactions and personal information are fully protected. Additionally, our KYC
+                           registration process adds
+                           an extra layer of security to verify user identities.</p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__question">
+                        <span class="faq__icon"></span>
+                        Are there any fees?
+                     </div>
+                     <div class="faq__answer">
+                        <p>Yes, there may be fees associated with your transactions. These fees are competitive and
+                           transparent, ensuring you get
+                           the best value for your money. Detailed fee information can be found on our website during
+                           the transaction process.</p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__question">
+                        <span class="faq__icon"></span>
+                        How does GetCryptoFast ensure the best prices?
+                     </div>
+                     <div class="faq__answer">
+                        <p>GetCryptoFast sources liquidity from multiple providers and aggregates the best prices across
+                           the top 10 crypto
+                           exchanges worldwide. This ensures you receive the most cost-effective rates on all your
+                           cryptocurrency purchases,
+                           maximizing your investment value with every transaction.</p>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+         </section>
+         <div class="cta">
+            <div class="cta__body container">
+               <h3 class="cta__title element-animation">Ready to buy crypto instantly?</h3>
+               <div class="cta__button element-animation">
+                  <button class="button signup-button">Create Account</button>
+               </div>
+            </div>
+         </div>
+
+         <div class="signup">
+            <div class="signup__body">
+               <div class="signup__title">
+                  Sign up to GetCryptoFast
+               </div>
+               <form class="signup__form">
+                  <div class="signup__form-item">
+                     <span>Email</span>
+                     <input type="email" name="email" placeholder="example@mail.com" required>
+                  </div>
+                  <div class="signup__form-item">
+                     <span>Telegram handle</span>
+                     <input type="text" name="telegram" placeholder="@handle" required>
+                  </div>
+                  <div class="signup__form-item">
+                     <span>Crypto wallet address (ERC-20)</span>
+                     <input type="text" name="wallet" placeholder="Wallet address" required>
+                  </div>
+                  <button type="submit" class="button">
+                     <span class="loading-icon"></span>
+                     <span>Sign up</span>
+                  </button>
+               </form>
+               <div class="signup__success">
+                  <div class="signup__success-title">Check your inbox!</div>
+                  <div class="signup__success-icon">
+                     <img src="img/icons/mail-success.svg" alt="">
+                  </div>
+                  <div class="signup__success-text">
+                     <p>Thank you for your request. We emailed you the next step at <span>example@gmail.com</span></p>
+                     <p>If you do not see an email within the next 10 minutes please check your spam/junk folder for an
+                        email from
+                        noreply@flourishingcapital.io</p>
+                  </div>
+                  <button class="button resend-email">Resend email</button>
+               </div>
+               <div class="signup__close">
+                  <img src="img/icons/close.svg" alt="">
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__body container">
+            <div class="footer__main">
+               <div class="footer__menu">
+                  <nav class="footer__nav">
+                     <div class="footer__nav-col">
+                        <div class="footer__nav-title">Company</div>
+                        <a href="index.html#home" class="footer__nav-link">Home</a>
+                        <a href="index.html#benefits" class="footer__nav-link">Why GetCryptoFast</a>
+                        <a href="index.html#partners" class="footer__nav-link">Expertise & partners</a>
+                        <a href="index.html#how-to-buy" class="footer__nav-link">How it works</a>
+                     </div>
+                     <div class="footer__nav-col">
+                        <div class="footer__nav-title">Legal</div>
+                        <a href="https://docs.google.com/document/d/17ICxBqIXdD0JXT3ksGvxm2KjOp_DXl-IFF8-KNF5Tqg/edit"
+                           target="_blank" class="footer__nav-link">Terms & conditions</a>
+                        <a href="https://docs.google.com/document/d/1AUrYcvD8RiszHHBh6BUxv3Sq-fyHVEOSMtfJzz3_lf8/edit"
+                           target="_blank" class="footer__nav-link">Privacy policy</a>
+                        <a href="https://docs.google.com/document/d/1FUk1Mo4pNI1TmWhjNYqnm9ZoCkMg4cBDbCCgg0aH44o/edit"
+                           target="_blank" class="footer__nav-link">KYC / AML</a>
+                     </div>
+                     <div class="footer__nav-col">
+                        <div class="footer__nav-title">Support</div>
+                        <a href="index.html#faq" class="footer__nav-link">FAQ</a>
+                        <p>For any issues regarding your purchase,
+                           please contact us at <a href="mailto:help@flourishingai.com">help@flourishingai.com</a> or <a
+                              href="https://t.me/flourishingcapital/211751" target="_blank">telegram</a>.</p>
+                     </div>
+                  </nav>
+                  <div class="footer__socials">
+                     <a href="https://www.ethereum.org/" target="_blank" class="footer__social">
+                        <img src="img/icons/web.svg" alt="">
+                     </a>
+                     <a href="https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" target="_blank"
+                        class="footer__social">
+                        <img src="img/icons/web2.svg" alt="">
+                     </a>
+                     <a href="https://twitter.com/ethereum" target="_blank" class="footer__social">
+                        <img src="img/icons/web3.svg" alt="">
+                     </a>
+                  </div>
+               </div>
+               <p>Crypto is immediately delivered and accessible in your wallet upon purchase. In the unlikely event we
+                  can
+                  not deliver
+                  immediately, you will be notified here and delivery will happen at the earliest time possible.</p>
+            </div>
+            <div class="footer__copyright">
+               Flourishing AI 300 S. Main st, #212, Holly Springs, NC 27540 USA ©2024 Flourishing AI. All rights
+               reserved.
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/swiper-bundle.min.js?_v=20240824004707"></script>
+   <script src="js/app.js?_v=20240824004707"></script>
+</body>
+
+</html>
